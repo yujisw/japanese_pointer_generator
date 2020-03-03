@@ -9,6 +9,8 @@ python3 training_ptr_gen/train_with_eval.py >& ./path/to/logfile &
 python3 training_ptr_gen/decode.py ./log/train_[trainID]/model/model_[iterationNum]_[weightID] >& ./log/decode_log.model_[iterationNum]_[weightID] &
 ```
 
+---
+
 pytorch implementation of *[Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)*
 
 Train with pointer generation + coverage loss enabled 
