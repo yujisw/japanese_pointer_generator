@@ -1,10 +1,10 @@
 ## Usage
 I recommend using tmux or byobu for management.
-### train
+### train+val
 ```python
 python3 training_ptr_gen/train_with_eval.py >& ./path/to/logfile &
 ```
-### decode
+### test
 ```python
 python3 training_ptr_gen/decode.py ./log/train_[trainID]/model/model_[iterationNum]_[weightID] >& ./log/decode_log.model_[iterationNum]_[weightID] &
 ```
