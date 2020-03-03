@@ -1,0 +1,11 @@
+*.pyc 
+*.bin
+log/*
+.ipynb_checkpoints/*
+*.log
+*.csv
+*.tsv
+*.txt
+*.npy
+*vocab
+__pycache__
